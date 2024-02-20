@@ -1,0 +1,138 @@
+/* body::before {
+  content: "";
+  position: absolute;
+  inset: 40% -60% 0 -60%;
+  opacity: 0.3;
+  pointer-events: none;
+}
+nav {
+  position: relative;
+  z-index: 1;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 40px;
+} */
+/* Basic reset to remove default margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style the header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+/* Style the h1 inside the header */
+header h1 {
+  font-size: 24px;
+}
+
+/* Style the navigation */
+nav {
+  background-color: #f4f4f4;
+}
+
+/* Style the list */
+ul {
+  list-style: none;
+  padding: 10px;
+}
+
+/* Style the list items */
+li {
+  display: inline;
+  margin-right: 10px;
+}
+
+/* Style the buttons */
+button {
+  background-color: #ddd;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Style the active button */
+li.active button {
+  background-color: #333;
+  color: #fff;
+}
+/* style the content */
+.content {
+  padding: 140px;
+}
+/* style the main text */
+.content .main-text {
+  position: relative;
+  z-index: 2;
+  margin-bottom: 50px;
+}
+/* style the main text h1 */
+.content .main-text h1 {
+  font-size: 70px;
+  line-height: 0.1;
+  color: #333;
+  margin: 0 0 45px;
+}
+/* style the main text h6 */
+.content .main-text h6 {
+  font-size: 14px;
+  font-weight: 400;
+  color: #333;
+  margin-left: 15%;
+  padding: 0;
+  line-height: 1.8;
+}
+/* style the main text a */
+.content .main-text a {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  background: #ddd;
+  border: 1px solid black;
+  padding: 9px 25px;
+  line-height: 1.4;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.content .main-text a:hover {
+  transform: scale(1.2);
+  border-radius: 1px solid black;
+  background: transparent;
+  color: rgb(161, 14, 14);
+  transition: 2s;
+}
+/* OverLay  */
+.OverLay {
+  height: 100vh;
+  background-color: rgba(119, 116, 116, 0.884);
+}
+
+.main-text .img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: cover;
+}
+
+.content .image img {
+  width: 600px;
+  height: 480px;
+  margin-left: 52%;
+  margin-top: -310px;
+  cursor: pointer;
+}
+
+.content .image img:hover {
+  transform: scale(1.2);
+}
+ss
